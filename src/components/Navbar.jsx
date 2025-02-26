@@ -1,5 +1,6 @@
 import { Bell, Info } from "lucide-react";
 import { Link } from "react-router-dom";
+import profilePic from "../assets/Saurav.png";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
 
       <Link to={"/"}>
         <img
-          src="public/Saurav animated.png"
+          src={profilePic}
           alt="profile picture"
           className="rounded-full border-2 border-pink-400 shadow-normal"
           width={55}
