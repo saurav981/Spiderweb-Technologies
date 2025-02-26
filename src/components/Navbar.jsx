@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <Link to={"/"}>
         <img
-          src="src/assets/Saurav animated.png"
+          src="public/Saurav animated.png"
           alt="profile picture"
           className="rounded-full border-2 border-pink-400 shadow-normal"
           width={55}
